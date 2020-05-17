@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafio</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div id="selector">
+      <h1>Seletor de cores</h1>
+      <label
+        >(R) Vermelho:
+        <input type="range" id="rangeRed" value="0" min="0" max="255" />
+        <input type="text" class="textRed" id="textRed" value="0" disabled />
+      </label>
+      <label
+        >(G) Verde:
+        <input type="range" id="rangeGreen" value="0" min="0" max="255" />
+        <input
+          type="text"
+          class="textGreen"
+          id="textGreen"
+          value="0"
+          disabled
+        />
+      </label>
+      <label
+        >(B) Blue:
+        <input type="range" id="rangeBlue" value="0" min="0" max="255" />
+        <input type="text" class="textBlue" id="textBlue" value="0" disabled />
+      </label>
+    </div>
+    <div id="colorResult"></div>
+    <script></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
